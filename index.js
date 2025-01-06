@@ -7,7 +7,7 @@ const promClient = require('prom-client');
 
 // Constants
 const PORT = process.env.APP_PORT_NUMBER || 3001;
-const HOST = '192.168.0.120';
+const HOST = '0.0.0.0';
 // Create an instance of the Prometheus client
 const client = promClient;
 
